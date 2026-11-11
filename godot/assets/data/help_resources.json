@@ -1,0 +1,70 @@
+{
+ "DITL": {
+  "11000": [
+   {
+	"rect": [
+	 302,
+	 361,
+	 322,
+	 419
+	],
+	"type": "button",
+	"enabled": true,
+	"text": "OK"
+   },
+   {
+	"rect": [
+	 303,
+	 78,
+	 323,
+	 136
+	],
+	"type": "button",
+	"enabled": true,
+	"text": "Back"
+   },
+   {
+	"rect": [
+	 302,
+	 229,
+	 322,
+	 287
+	],
+	"type": "button",
+	"enabled": true,
+	"text": "Next"
+   },
+   {
+	"rect": [
+	 1,
+	 1,
+	 291,
+	 436
+	],
+	"type": "picture",
+	"enabled": false,
+	"resID": 0
+   }
+  ]
+ },
+ "DLOG": {
+  "11000": {
+   "name": "help dialog",
+   "rect": [
+	62,
+	106,
+	388,
+	542
+   ],
+   "procID": 1,
+   "visible": false,
+   "goAway": true,
+   "refCon": 0,
+   "ditl": 11000,
+   "title": ""
+  }
+ },
+ "dctb": {
+  "11000": "000000000000ffff"
+ }
+}

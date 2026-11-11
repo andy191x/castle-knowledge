@@ -1,0 +1,2 @@
+When exporting, add  *.json, *.txt  to "Filters to export non-resource files" in each export preset,
+so the game data files in assets/data are packed.

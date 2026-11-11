@@ -1,0 +1,951 @@
+{
+ "ALRT": {
+  "128": {
+   "name": "autotake alert",
+   "rect": [
+	136,
+	158,
+	196,
+	446
+   ],
+   "ditl": 1248,
+   "stages": 21845
+  },
+  "800": {
+   "name": "system error",
+   "rect": [
+	140,
+	154,
+	182,
+	462
+   ],
+   "ditl": 800,
+   "stages": 21845
+  },
+  "1248": {
+   "name": "cant carry more",
+   "rect": [
+	140,
+	158,
+	214,
+	452
+   ],
+   "ditl": 1248,
+   "stages": 21845
+  },
+  "2100": {
+   "name": "no color allowed",
+   "rect": [
+	140,
+	158,
+	220,
+	430
+   ],
+   "ditl": 2100,
+   "stages": 21845
+  },
+  "4011": {
+   "name": "must have some problems",
+   "rect": [
+	78,
+	136,
+	188,
+	474
+   ],
+   "ditl": 4011,
+   "stages": 21845
+  },
+  "4012": {
+   "name": "can't locate resource file",
+   "rect": [
+	90,
+	132,
+	202,
+	480
+   ],
+   "ditl": 4012,
+   "stages": 21845
+  },
+  "4013": {
+   "name": "low memory",
+   "rect": [
+	144,
+	150,
+	228,
+	482
+   ],
+   "ditl": 4013,
+   "stages": 21845
+  }
+ },
+ "CURS": {
+  "300": {
+   "hotspot": [
+	10,
+	5
+   ],
+   "name": null
+  },
+  "301": {
+   "hotspot": [
+	2,
+	3
+   ],
+   "name": null
+  },
+  "302": {
+   "hotspot": [
+	8,
+	4
+   ],
+   "name": null
+  },
+  "303": {
+   "hotspot": [
+	8,
+	8
+   ],
+   "name": null
+  },
+  "304": {
+   "hotspot": [
+	8,
+	3
+   ],
+   "name": null
+  },
+  "305": {
+   "hotspot": [
+	11,
+	4
+   ],
+   "name": null
+  },
+  "306": {
+   "hotspot": [
+	10,
+	3
+   ],
+   "name": null
+  }
+ },
+ "DITL": {
+  "130": [
+   {
+	"rect": [
+	 8,
+	 13,
+	 152,
+	 140
+	],
+	"type": "picture",
+	"enabled": false,
+	"resID": 1431
+   },
+   {
+	"rect": [
+	 16,
+	 143,
+	 136,
+	 343
+	],
+	"type": "picture",
+	"enabled": false,
+	"resID": 1431
+   },
+   {
+	"rect": [
+	 35,
+	 350,
+	 137,
+	 487
+	],
+	"type": "picture",
+	"enabled": false,
+	"resID": 1340
+   }
+  ],
+  "131": [
+   {
+	"rect": [
+	 5,
+	 7,
+	 361,
+	 542
+	],
+	"type": "picture",
+	"enabled": false,
+	"resID": 1350
+   },
+   {
+	"rect": [
+	 374,
+	 89,
+	 394,
+	 147
+	],
+	"type": "button",
+	"enabled": true,
+	"text": "Not yet"
+   },
+   {
+	"rect": [
+	 373,
+	 262,
+	 394,
+	 373
+	],
+	"type": "button",
+	"enabled": true,
+	"text": "Register Now"
+   }
+  ],
+  "136": [
+   {
+	"rect": [
+	 339,
+	 378,
+	 359,
+	 436
+	],
+	"type": "button",
+	"enabled": true,
+	"text": "Print"
+   },
+   {
+	"rect": [
+	 339,
+	 454,
+	 359,
+	 512
+	],
+	"type": "button",
+	"enabled": true,
+	"text": "Cancel"
+   },
+   {
+	"rect": [
+	 3,
+	 162,
+	 19,
+	 416
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "CASTLE KNOWLEDGE REGISTRATION FORM"
+   },
+   {
+	"rect": [
+	 43,
+	 60,
+	 80,
+	 441
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "Enter the name and address of the person registering this copy of Castle Knowledge."
+   },
+   {
+	"rect": [
+	 85,
+	 60,
+	 101,
+	 135
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "Name"
+   },
+   {
+	"rect": [
+	 85,
+	 146,
+	 101,
+	 430
+	],
+	"type": "editText",
+	"enabled": true,
+	"text": ""
+   },
+   {
+	"rect": [
+	 113,
+	 59,
+	 129,
+	 134
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "Street"
+   },
+   {
+	"rect": [
+	 115,
+	 146,
+	 131,
+	 430
+	],
+	"type": "editText",
+	"enabled": true,
+	"text": ""
+   },
+   {
+	"rect": [
+	 145,
+	 59,
+	 161,
+	 134
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "City"
+   },
+   {
+	"rect": [
+	 145,
+	 146,
+	 161,
+	 430
+	],
+	"type": "editText",
+	"enabled": true,
+	"text": ""
+   },
+   {
+	"rect": [
+	 175,
+	 59,
+	 191,
+	 134
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "State"
+   },
+   {
+	"rect": [
+	 174,
+	 146,
+	 190,
+	 272
+	],
+	"type": "editText",
+	"enabled": true,
+	"text": ""
+   },
+   {
+	"rect": [
+	 175,
+	 283,
+	 191,
+	 358
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "Zip Code"
+   },
+   {
+	"rect": [
+	 175,
+	 367,
+	 191,
+	 480
+	],
+	"type": "editText",
+	"enabled": true,
+	"text": ""
+   },
+   {
+	"rect": [
+	 203,
+	 59,
+	 219,
+	 177
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "E-MAIL Address:"
+   },
+   {
+	"rect": [
+	 202,
+	 181,
+	 218,
+	 358
+	],
+	"type": "editText",
+	"enabled": true,
+	"text": ""
+   },
+   {
+	"rect": [
+	 226,
+	 59,
+	 242,
+	 167
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "On-line service:"
+   },
+   {
+	"rect": [
+	 226,
+	 181,
+	 243,
+	 323
+	],
+	"type": "editText",
+	"enabled": true,
+	"text": ""
+   },
+   {
+	"rect": [
+	 20,
+	 243,
+	 35,
+	 335
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "Version 2.6"
+   },
+   {
+	"rect": [
+	 251,
+	 64,
+	 269,
+	 492
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "Mail $20 payment by cash, check or money order in U.S. dollars to:"
+   },
+   {
+	"rect": [
+	 270,
+	 177,
+	 288,
+	 325
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "George Herrin, Jr."
+   },
+   {
+	"rect": [
+	 291,
+	 177,
+	 309,
+	 325
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "3710 Starboard Ln"
+   },
+   {
+	"rect": [
+	 313,
+	 177,
+	 331,
+	 325
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "Lithonia, GA  30058"
+   },
+   {
+	"rect": [
+	 339,
+	 18,
+	 359,
+	 149
+	],
+	"type": "button",
+	"enabled": true,
+	"text": "Enter Code"
+   },
+   {
+	"rect": [
+	 3,
+	 111,
+	 35,
+	 143
+	],
+	"type": "icon",
+	"enabled": false,
+	"resID": 1431
+   },
+   {
+	"rect": [
+	 3,
+	 441,
+	 35,
+	 473
+	],
+	"type": "icon",
+	"enabled": false,
+	"resID": 1431
+   }
+  ],
+  "4014": [
+   {
+	"rect": [
+	 11,
+	 32,
+	 63,
+	 315
+	],
+	"type": "statText",
+	"enabled": false,
+	"text": "^0"
+   }
+  ]
+ },
+ "DLOG": {
+  "130": {
+   "name": "credit box",
+   "rect": [
+	68,
+	90,
+	264,
+	580
+   ],
+   "procID": 1,
+   "visible": false,
+   "goAway": false,
+   "refCon": 0,
+   "ditl": 130,
+   "title": ""
+  },
+  "131": {
+   "name": null,
+   "rect": [
+	40,
+	40,
+	438,
+	588
+   ],
+   "procID": 3,
+   "visible": false,
+   "goAway": false,
+   "refCon": 0,
+   "ditl": 131,
+   "title": ""
+  },
+  "136": {
+   "name": null,
+   "rect": [
+	56,
+	44,
+	432,
+	582
+   ],
+   "procID": 1,
+   "visible": true,
+   "goAway": true,
+   "refCon": 0,
+   "ditl": 136,
+   "title": ""
+  },
+  "4014": {
+   "name": "finding resources",
+   "rect": [
+	40,
+	140,
+	124,
+	471
+   ],
+   "procID": 1,
+   "visible": true,
+   "goAway": true,
+   "refCon": 0,
+   "ditl": 4014,
+   "title": ""
+  }
+ },
+ "MENU": {
+  "2": {
+   "id": 1,
+   "title": "Command",
+   "items": [
+	{
+	 "text": "New Game",
+	 "key": "N",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Default Player",
+	 "key": "D",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Save Game",
+	 "key": "S",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Resume Game",
+	 "key": "O",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Quit",
+	 "key": "Q",
+	 "mark": 0,
+	 "style": 0
+	}
+   ],
+   "enableFlags": 4294967295
+  },
+  "3": {
+   "id": 2,
+   "title": "Inventory",
+   "items": [
+	{
+	 "text": "Potions",
+	 "key": "P",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Scrolls",
+	 "key": "M",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Wands",
+	 "key": "W",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Armor",
+	 "key": "A",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Sword",
+	 "key": "B",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Shield",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Rings",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Helms",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Amulets",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	}
+   ],
+   "enableFlags": 4294966399
+  },
+  "4": {
+   "id": 3,
+   "title": "Options",
+   "items": [
+	{
+	 "text": "Set Problem Options",
+	 "key": "G",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Auto Item Pickup",
+	 "key": "T",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Sound Control",
+	 "key": "H",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Hide Overhead View",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	}
+   ],
+   "enableFlags": 4294967295
+  },
+  "5": {
+   "id": 4,
+   "title": "Status",
+   "items": [
+	{
+	 "text": "Player Progress",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Crystal Location",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	}
+   ],
+   "enableFlags": 4294967295
+  },
+  "6": {
+   "id": 5,
+   "title": "Rations",
+   "items": [
+	{
+	 "text": "Food",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Food",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Food",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Food",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	},
+	{
+	 "text": "Food",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	}
+   ],
+   "enableFlags": 4294967295
+  },
+  "128": {
+   "id": 1,
+   "title": "Apple",
+   "items": [],
+   "enableFlags": 4294967295
+  },
+  "2000": {
+   "id": 129,
+   "title": "",
+   "items": [
+	{
+	 "text": "None",
+	 "key": "",
+	 "mark": 0,
+	 "style": 0
+	}
+   ],
+   "enableFlags": 4294967295
+  }
+ },
+ "WIND": {
+  "5": {
+   "name": null,
+   "rect": [
+	392,
+	504,
+	462,
+	620
+   ],
+   "procID": 2,
+   "visible": true,
+   "goAway": true,
+   "refCon": 0,
+   "title": "New Window"
+  },
+  "128": {
+   "name": null,
+   "rect": [
+	263,
+	22,
+	473,
+	442
+   ],
+   "procID": 4,
+   "visible": false,
+   "goAway": true,
+   "refCon": 0,
+   "title": "Overhead view - Level "
+  },
+  "129": {
+   "name": null,
+   "rect": [
+	19,
+	-2,
+	484,
+	678
+   ],
+   "procID": 2,
+   "visible": true,
+   "goAway": true,
+   "refCon": 0,
+   "title": "Overhead view - Level "
+  },
+  "130": {
+   "name": null,
+   "rect": [
+	40,
+	5,
+	232,
+	274
+   ],
+   "procID": 4,
+   "visible": false,
+   "goAway": false,
+   "refCon": 0,
+   "title": ""
+  },
+  "131": {
+   "name": null,
+   "rect": [
+	40,
+	348,
+	280,
+	548
+   ],
+   "procID": 4,
+   "visible": false,
+   "goAway": false,
+   "refCon": 0,
+   "title": "3D VIEW - "
+  },
+  "132": {
+   "name": null,
+   "rect": [
+	249,
+	586,
+	294,
+	631
+   ],
+   "procID": 2,
+   "visible": false,
+   "goAway": false,
+   "refCon": 0,
+   "title": "3D VIEW - "
+  },
+  "133": {
+   "name": null,
+   "rect": [
+	302,
+	464,
+	479,
+	602
+   ],
+   "procID": 4,
+   "visible": false,
+   "goAway": false,
+   "refCon": 0,
+   "title": "INVENTORY"
+  },
+  "1000": {
+   "name": null,
+   "rect": [
+	52,
+	58,
+	270,
+	456
+   ],
+   "procID": 3,
+   "visible": false,
+   "goAway": false,
+   "refCon": 0,
+   "title": "New Window"
+  }
+ },
+ "actb": {
+  "1248": "000000000000ffff",
+  "4011": "000000000000ffff"
+ },
+ "dctb": {
+  "128": "000000000000ffff",
+  "130": {
+   "0": "#ffffff"
+  },
+  "131": "000000000000ffff",
+  "134": "000000000000ffff",
+  "135": "000000000000ffff",
+  "136": "000000000000ffff",
+  "137": "000000000000ffff",
+  "190": "000000000000ffff",
+  "201": "000000000000ffff",
+  "209": "000000000000ffff",
+  "210": "000000000000ffff",
+  "211": "000000000000ffff",
+  "247": "000000000000ffff",
+  "251": "000000000000ffff",
+  "261": "000000000000ffff",
+  "271": "000000000000ffff",
+  "1001": "000000000000ffff",
+  "1248": "000000000000ffff",
+  "1510": "000000000000ffff",
+  "2001": "000000000000ffff",
+  "2002": "000000000000ffff",
+  "2005": "000000000000ffff",
+  "2006": "000000000000ffff",
+  "2500": "000000000000ffff",
+  "2600": {
+   "0": "#ffffff",
+   "1": "#000000",
+   "2": "#000000",
+   "3": "#000000",
+   "4": "#ffffff"
+  },
+  "4000": "000000000000ffff",
+  "9999": "000000000000ffff",
+  "10000": "000000000000ffff",
+  "10001": "000000000000ffff",
+  "10003": "000000000000ffff"
+ },
+ "vers": {
+  "short": "\rCK2.4 ©1995,1996",
+  "long": "Castle Knowledge 2.5 ©1995,1996 George Herrin, Jr."
+ },
+ "wctb": {
+  "128": {
+   "0": "#ffffff",
+   "1": "#000000",
+   "2": "#000000",
+   "3": "#000000",
+   "4": "#ffffff"
+  },
+  "129": {
+   "0": "#336666",
+   "1": "#000000",
+   "2": "#000000",
+   "3": "#000000",
+   "4": "#ffffff"
+  }
+ }
+}

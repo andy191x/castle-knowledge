@@ -1,0 +1,23 @@
+.DS_Store
+
+# Godot 4+ specific ignores
+/godot/.godot/
+/godot/android/
+
+# Build artifacts
+godot/build/macos/castle_knowledge.dmg
+godot/build/web/index.apple-touch-icon.png
+godot/build/web/index.apple-touch-icon.png.import
+godot/build/web/index.audio.position.worklet.js
+godot/build/web/index.audio.worklet.js
+godot/build/web/index.html
+godot/build/web/index.icon.png
+godot/build/web/index.icon.png.import
+godot/build/web/index.js
+godot/build/web/index.pck
+godot/build/web/index.png
+godot/build/web/index.png.import
+godot/build/web/index.wasm
+godot/build/windows/castle_knowledge.exe
+godot/build/windows/castle_knowledge.pck
+
